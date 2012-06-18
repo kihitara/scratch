@@ -152,6 +152,14 @@
     background-color: #FFFFFF;
 }
 
+/* Buttons at the end of a lesson */
+.lessonbutton {
+    border: 1px solid [[setting:themecolor]];
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+
 /* ---------------- Assignments ---------------- */
 /* Attempts table */
 #attempts tr {
