@@ -193,3 +193,9 @@
 .paging {
     text-align: center;
 }
+
+/* ---------------- Completion progress ---------------- */
+/* Fix no sideways scroll on wide completion progress table */
+.pagelayout-report #completion-progress-wrapper {
+    overflow: auto;
+}
