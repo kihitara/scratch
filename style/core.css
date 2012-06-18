@@ -1,0 +1,176 @@
+/* ---------------- Font settings ---------------- */
+
+/** Removes the white background from footer which overrides everything **/
+html {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/** Background colour of whole page **/
+body { 
+    font-family: Helvetica, "Arial", Tahoma, sans-serif;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    background-color:#FFFFFF;
+}
+
+/** Background colour of the central part where all content is **/
+#wrapper {
+    padding: 5px;
+    border: 10px solid;
+    border-color: [[setting:themecolor]];
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    min-width: 900px;
+    background-color: #FFFFFF;
+}
+
+#page-content .region-content {
+    overflow: hidden;
+    padding: 5px;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+    color: [[setting:themecolor]];
+    padding: 2px;
+}
+
+a { 
+    color: [[setting:themecolor]];
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: #000000;
+}
+
+ol, ul, dl {
+    margin-left: 1em;
+}
+
+/* ---------------- Header banner ---------------- */
+
+/* Logo at top of page */
+/* The logo is controlled by the settings page */
+
+#page-header {
+    position:relative;
+    min-height:100px;
+    background-color: [[setting:themecolor]];
+    }
+
+#page-header .sitelogo {
+    float:left;
+    }
+
+.headermain {
+    display: none;
+}
+
+/* ---------------- Login information ---------------- */
+
+/* Login info at the top */
+
+.headermenu .logininfo {
+    color: #FFFFFF;
+    float: right;
+}
+
+.headermenu .logininfo a {
+    color: #FFFFFF;
+}
+
+.headermenu .logininfo a:hover {
+    color: #CCCCCC;
+}
+
+/* Login info at the bottom */
+
+#page-footer .logininfo {
+    color: #000000;
+}
+
+#page-footer .logininfo a {
+    color: #000000;
+}
+
+#page-footer .logininfo a:hover {
+    color: #535353;
+}
+
+/* ---------------- Boxes and buttons site wide ---------------- */
+
+.generalbox {
+    border: none;
+    padding: 5px;
+}
+
+.singlebutton {
+    text-align: center;
+}
+
+.continuebutton {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+/* ---------------- Redirect page ---------------- */
+/* Like after posting to a forum */
+
+.redirectmessage {
+    text-align: center;
+}
+
+/* The div for the whole redirect page */
+.pagelayout-redirect #page {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 200px;
+    padding-top: 125px;
+    border-color: [[setting:themecolor]];
+    border-width: 10px;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+/* ---------------- List of categories ---------------- */
+.numberofcourse {
+    float: right;
+}
+
+.categorylist .indentation {
+    width: 100%;
+}
+
+/* First sub-category level */
+.indentation .numberofcourse {
+    padding-right: 20px;
+}
+
+/* Second sub-category level */
+.indentation .indentation .numberofcourse {
+    padding-right: 40px;
+}
+
+/* Third sub-category level */
+.indentation .indentation .indentation .numberofcourse {
+    padding-right: 60px;
+}
+
+/* Fourth sub-category level */
+.indentation .indentation .indentation .indentation .numberofcourse {
+    padding-right: 80px;
+}
+
+/* If you are going into five or more sub-category levels
+  please keep adding as per the pattern above */

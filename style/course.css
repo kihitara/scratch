@@ -1,0 +1,195 @@
+/** Central content in the course box **/
+.course-content .content {
+    background-color: #FFFFFF;
+    padding: 5px;
+    color: #000000;
+}
+
+/** General course boxes **/
+.course-content .main {
+    background-color: #FFFFFF;
+}
+
+.course-content .content .sectionname {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/**  Highlighted course box **/
+.course-content .current {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}
+
+/** Hidden course box **/
+.course-content .hidden {
+    opacity: 0.5;
+    border: 1px dashed #CCCCCC;
+}
+
+/** Topic outline text at top of course page **/
+.course-content .outline {
+    display: none;
+}
+
+/** Completion progress text **/
+.path-course-view .completionprogress {
+    display: none;
+}
+
+/** Activity completion checkboxes positioning **/
+.path-course-view li.activity span.autocompletion,
+.path-course-view li.activity form.togglecompletion {
+    right: -15px;
+}
+
+/** Conditional or availability information of activities and resources in a course **/
+.availabilityinfo {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px dashed grey;
+    opacity: 0.5;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/** Jump menu **/
+.jumpmenu {
+    margin-top: 10px;
+}
+
+/* ---------------- Forum ---------------- */
+
+.forumpost .row .options {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.forumpost .subject {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.forumpost .author {
+    padding-left: 5px;
+}
+
+.path-mod-forum .forumheaderlist thead {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}
+
+.path-course-view .unread {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}
+
+.path-course-view .unread a {
+    color: #FFFFFF;
+}
+
+#page-mod-forum-view .unread {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}
+
+#page-mod-forum-view .unread a {
+    color: #FFFFFF;
+}
+
+#page-mod-forum-discuss .unread .row .topic {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}
+
+#page-mod-forum-discuss .unread .row .topic a {
+    color: #FFFFFF;
+}
+
+.path-mod-forum .forumheaderlist .discussion .starter {
+    overflow: hidden;
+    max-width: 350px;
+}
+
+/* Fixes the main region going all the way over to the very right of
+  the page when viewing a forum post etc */
+.path-mod #region-main .region-content {
+    margin-right: 10px;
+}
+
+/* ---------------- Lessons ---------------- */
+/* Centers the buttons */
+.path-mod-lesson .branchbuttoncontainer {
+    text-align: center;
+}
+
+/* Progress bar */
+.path-mod-lesson .progress_bar {
+    padding: 20px;
+}
+
+.path-mod-lesson .progress_bar_table {
+    width: 80%;
+}
+
+.path-mod-lesson .progress_bar_table, .path-mod-lesson .progress_bar_completed, .path-mod-lesson .progress_bar_todo {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.path-mod-lesson .progress_bar_completed {
+    background-color: #198384;
+}
+
+.path-mod-lesson .progress_bar_table .lastcol {
+    background-color: #CCCCCC;
+}
+
+.path-mod-lesson .progress_bar_token {
+    background-color: #FFFFFF;
+}
+
+/* ---------------- Assignments ---------------- */
+/* Attempts table */
+#attempts tr {
+    border-top: 1px solid [[setting:themecolor]];
+    border-bottom: 1px solid [[setting:themecolor]];
+}
+
+/* Options form centered */
+.path-mod-assignment #mform1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------------- Tabtrees ---------------- */
+
+.tabtree {
+    text-align: center;
+}
+
+.tabtree .tabrow0 {
+    border-bottom: 1px solid [[setting:themecolor]];
+}
+
+.tabtree li {
+    border-left: 1px solid [[setting:themecolor]];
+    border-right: 1px solid [[setting:themecolor]];
+    border-top: 1px solid [[setting:themecolor]];
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 2px;
+}
+
+/** Initial bars (first and last initial) **/
+.initialbar {
+    text-align: center;
+}
+
+/** Page numbers **/
+.paging {
+    text-align: center;
+}

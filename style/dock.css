@@ -1,0 +1,20 @@
+#dock {
+    background-color: [[setting:themecolor]];
+}
+
+#dock .dockedtitle {
+    border-top: none;
+    border-bottom: none;
+}
+
+#dock .dockedtitle h2 {
+    color: #FFFFFF;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    margin-left: 5px;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    border-bottom: none;
+}

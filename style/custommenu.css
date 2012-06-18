@@ -1,0 +1,33 @@
+#custommenu {
+    border-top: none;
+    border-bottom: 1px solid [[setting:themecolor]];
+    border-left: 1px solid [[setting:themecolor]];
+    border-right: 1px solid [[setting:themecolor]];
+}
+
+.yui3-skin-sam .yui3-menu-content,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-content,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border: none;
+}
+
+.yui3-skin-sam .yui3-menu .custom_menu_submenu .yui3-menu-content {
+    border: 1px solid [[setting:themecolor]];
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+#custommenu .yui3-menuitem-active,
+#custommenu .yui3-menuitem-active .yui3-menuitem-content,
+.yui3-menulabel .yui3-menulabel-active .yu3-menulabel-menuvisible,
+.yui3-skin-sam .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menulabel-menuvisible,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-active .yui3-menuitem-content,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label-menuvisible,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-active,
+.yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label-menuvisible {
+    background-color: [[setting:themecolor]];
+    color: #FFFFFF;
+}

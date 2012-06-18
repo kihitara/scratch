@@ -1,0 +1,57 @@
+#page-content .block-region .region-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ---------------- Blocks ---------------- */
+
+/** Override the region width **/
+#page-content #region-main-box {float:left;left:[[setting:regionwidth]];position:relative;width:200%;}
+#page-content #region-post-box {float:left;left:50%;margin-left:-[[setting:regionwidthdouble]];position:relative;width:100%;}
+#page-content #region-main-wrap {float:right;position:relative;right:100%;width:50%;}
+#page-content #region-main {margin-right:0px;margin-left:[[setting:regionwidthdouble]];overflow:hidden;}
+#page-content #region-pre {float:left;left:[[setting:regionwidth]];overflow:hidden;position:relative;width:[[setting:regionwidth]];margin-left:-50%;}
+#page-content #region-post {float:left;left:0px;overflow:hidden;position:relative;width:[[setting:regionwidth]];}
+
+/** Only side pre **/
+.side-pre-only #page-content #region-post-box {margin-left:-[[setting:regionwidth]];}
+.side-pre-only #page-content #region-main {margin-left:[[setting:regionwidth]];}
+.side-pre-only #page-content #region-pre {left:0px;}
+.side-pre-only #page-content #region-post {width:0px;}
+
+/** Only side post **/
+.side-post-only #page-content #region-main-box {left:0px;}
+.side-post-only #page-content #region-post-box {margin-left:-[[setting:regionwidth]];}
+.side-post-only #page-content #region-main {margin-left:[[setting:regionwidth]];}
+.side-post-only #page-content #region-pre {width:0px;}
+.has_dock.side-post-only .page-middle #region-main {margin-left:[[setting:regionwidth]];}
+
+/** Moving block when side-post-only **/
+.blocks-moving.side-post-only #page-content #region-main-box {left:[[setting:regionwidth]];width:200%;}
+.blocks-moving.side-post-only #page-content #region-post-box {margin-left:-[[setting:regionwidthdouble]];}
+.blocks-moving.side-post-only #page-content #region-main {margin-left:[[setting:regionwidthdouble]];}
+.blocks-moving.side-post-only #page-content #region-pre {left:[[setting:regionwidth]];width:[[setting:regionwidth]];}
+.blocks-moving.side-post-only #page-content #region-post {left:0px;width:[[setting:regionwidth]];}
+
+/** No blocks whatsoever **/
+.content-only #page-content {min-width:0;}
+.content-only #page-content #region-main-box {left:0px;}
+.content-only #page-content #region-post-box {margin-left:0px;}
+.content-only #page-content #region-main {margin-left:0px;}
+.content-only #page-content #region-pre {left:0;width:0px;}
+.content-only #page-content #region-post {width:0;}
+
+/** Report layout **/
+.pagelayout-report #report-main-content .region-content {margin-left:[[setting:regionwidth]];}
+.pagelayout-report #report-region-pre {width:[[setting:regionwidth]];}
+
+/** Correct for right to left languages **/
+.dir-rtl.pagelayout-report #report-main-content .region-content {margin-left:0;margin-right:[[setting:regionwidth]];}
+
+/** Stabalise IE6 behaviour on the report layout **/
+.ie6.pagelayout-report #report-region-wrap {float:none;width:[[setting:regionwidth]];left:auto;position:absolute;top:0;}
+
+/************* colours *************/
+.block {
+    border-color: [[setting:themecolor]];
+}
