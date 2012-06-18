@@ -10,7 +10,7 @@ $THEME->parents = array('base');
 
 // Style sheets used
 
-$THEME->sheets = array('overrideall','core','course','modules','blocks','navbar','custommenu','dock');
+$THEME->sheets = array('overrideall','core','course','blocks','custommenu','dock');
 
 // Editor sheets
 
