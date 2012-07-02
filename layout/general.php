@@ -93,21 +93,21 @@ echo $OUTPUT->doctype() ?>
     <!--
 		    <div id="topblockwrap">
 		    <div class="top-blocks">
-		    <div id="blocktopleft">
+		    <div id="blocktopleft" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-top-left') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopmid">
+		    <div id="blocktopmid" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-top-mid') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopright">
+		    <div id="blocktopright" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-top-right') ?>
                     </div>
@@ -161,21 +161,21 @@ echo $OUTPUT->doctype() ?>
     <!--
 		    <div id="btmblockwrap">
 		    <div class="btm-blocks">
-		    <div id="blockbtmleft">
+		    <div id="blockbtmleft" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-btm-left') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmmid">
+		    <div id="blockbtmmid" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-btm-mid') ?>
                     </div>
 		    </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmright">
+		    <div id="blockbtmright" class="block-region">
 		    <div class="region-content">
                         <?php // echo $OUTPUT->blocks_for_region('block-btm-right') ?>
                     </div>

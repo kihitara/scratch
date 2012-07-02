@@ -18,6 +18,9 @@ functions:
 - Custom CSS box
 
 ****************** Change log *******************
+02/07/12
+- Fixed block regions for Moodle 2.3
+
 18/06/12
 - Added README file
 - Core CSS edits
