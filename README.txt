@@ -18,6 +18,9 @@ functions:
 - Custom CSS box
 
 ****************** Change log *******************
+05/07/12
+- Fixed main content output in embedded.php
+
 02/07/12
 - Fixed block regions for Moodle 2.3
 
