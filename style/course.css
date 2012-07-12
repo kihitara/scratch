@@ -121,6 +121,8 @@
     color: #FFFFFF;
 }
 
+/* Prevents a long forum discussion title from pushing list
+  of discussions off the page to the right */
 .path-mod-forum .forumheaderlist .discussion .starter {
     overflow: hidden;
     max-width: 350px;
