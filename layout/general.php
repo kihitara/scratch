@@ -70,7 +70,7 @@ echo $OUTPUT->doctype() ?>
 		           		if (!empty($PAGE->layout_options['langmenu'])) {
 		        	       	echo $OUTPUT->lang_menu();
 			    	    }
-    			       	echo $PAGE->headingmenu
+    			       	echo $PAGE->headingmenu;
         			?>
 	        	</div>
 	        <?php } ?>
@@ -91,7 +91,7 @@ echo $OUTPUT->doctype() ?>
     <!-- The three blocks added to the top of the page -->
     <?php // if ($hastopblocks) { ?>
     <!--
-		    <div id="topblockwrap">
+		    <div id="topblockwrap" class="clearfix">
 		    <div class="top-blocks">
 		    <div id="blocktopleft" class="block-region">
 		    <div class="region-content">
@@ -159,7 +159,7 @@ echo $OUTPUT->doctype() ?>
     <!-- The three blocks added to the bottom of the page -->
     <?php // if ($hasbtmblocks) { ?>
     <!--
-		    <div id="btmblockwrap">
+		    <div id="btmblockwrap" class="clearfix">
 		    <div class="btm-blocks">
 		    <div id="blockbtmleft" class="block-region">
 		    <div class="region-content">
@@ -185,7 +185,6 @@ echo $OUTPUT->doctype() ?>
     -->
     <?php // } ?>
     <!-- End bottom of page blocks -->
-
     </div>
 
 <!-- START OF FOOTER -->
