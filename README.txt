@@ -23,6 +23,7 @@ functions:
   page.
 - Fixed ul & ol left margins.
 - Removed border from .mod_introbox
+- Quiz editing window tweaks.
 
 05/07/12
 - Fixed main content output in embedded.php

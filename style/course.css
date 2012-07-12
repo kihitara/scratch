@@ -177,6 +177,16 @@
     padding: 3px;
 }
 
+/* ---------------- Quiz ---------------- */
+
+.questionbankwindow .header h2 {
+    color: #FFFFFF;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header {
+    background-color: [[setting:themecolor]];
+}
+
 /* ---------------- Assignments ---------------- */
 /* Attempts table */
 #attempts tr {
