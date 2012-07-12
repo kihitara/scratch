@@ -179,3 +179,36 @@ ol, ul, dl {
 #dndupload-status {
     z-index: 99999;
 }
+
+/* ---------------- Calendar ---------------- */
+
+.calendartable .header {
+    border-top: 2px solid [[setting:themecolor]];
+    border-bottom: 2px solid [[setting:themecolor]];
+}
+
+.calendartable .c1,
+.calendartable .c3,
+.calendartable .c5 {
+    background-color: #eeeeee;
+}
+
+.calendar-controls {
+    position: relative;
+}
+
+.path-calendar .maincalendar .calendar-controls .previous {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.path-calendar .maincalendar .calendar-controls .next {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.path-calendar .maincalendar .calendar-controls .current {
+    width: 100%;
+}

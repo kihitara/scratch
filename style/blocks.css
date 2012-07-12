@@ -55,3 +55,14 @@
 .block {
     border-color: [[setting:themecolor]];
 }
+
+/* ---------------- Calendar Block ---------------- */
+
+.calendartable th, .calendartable td {
+    border: none;
+}
+
+.calendartable .weekdays {
+    border-top: 2px solid [[setting:themecolor]];
+    border-bottom: 2px solid [[setting:themecolor]];
+}
