@@ -91,7 +91,7 @@ echo $OUTPUT->doctype() ?>
     <!-- The three blocks added to the top of the page -->
     <?php // if ($hastopblocks) { ?>
     <!--
-		    <div id="topblockwrap" class="clearfix">
+		    <div id="topblockwrap">
 		    <div class="top-blocks">
 		    <div id="blocktopleft" class="block-region">
 		    <div class="region-content">
@@ -159,7 +159,7 @@ echo $OUTPUT->doctype() ?>
     <!-- The three blocks added to the bottom of the page -->
     <?php // if ($hasbtmblocks) { ?>
     <!--
-		    <div id="btmblockwrap" class="clearfix">
+		    <div id="btmblockwrap">
 		    <div class="btm-blocks">
 		    <div id="blockbtmleft" class="block-region">
 		    <div class="region-content">
