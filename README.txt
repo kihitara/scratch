@@ -18,6 +18,12 @@ functions:
 - Custom CSS box
 
 ****************** Change log *******************
+12/07/12
+- Fixed no-overflow on floating images on course
+  page.
+- Fixed ul & ol left margins.
+- Removed border from .mod_introbox
+
 05/07/12
 - Fixed main content output in embedded.php
 

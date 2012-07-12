@@ -58,6 +58,21 @@
     margin-top: 10px;
 }
 
+/* Makes floating images float properly on the course page */
+.path-course-view .course-content .content .no-overflow {
+    overflow: visible;
+}
+
+.path-course-view ul {
+    margin-left: 0.5em;
+}
+
+/* ---------------- All modules ---------------- */
+
+.mod_introbox {
+    border: none;
+}
+
 /* ---------------- Forum ---------------- */
 
 .forumpost .row .options {

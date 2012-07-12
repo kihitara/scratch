@@ -50,7 +50,7 @@ a:hover {
 }
 
 ol, ul, dl {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 /* ---------------- Header banner ---------------- */
@@ -174,3 +174,8 @@ ol, ul, dl {
 
 /* If you are going into five or more sub-category levels
   please keep adding as per the pattern above */
+
+/* Drag and drop upload status */
+#dndupload-status {
+    z-index: 99999;
+}
