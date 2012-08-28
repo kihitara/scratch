@@ -18,6 +18,9 @@ functions:
 - Custom CSS box
 
 ****************** Change log *******************
+28/08/12
+- Fixed [[customcssdesc]] display error.
+
 12/07/12
 - Fixed no-overflow on floating images on course
   page.

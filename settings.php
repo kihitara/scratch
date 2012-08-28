@@ -54,7 +54,7 @@ $settings->add($setting);
 // Custom CSS file
 $name = 'theme_scratch/customcss';
 $title = get_string('customcss','theme_scratch');
-$description = get_string('customcssdesc', 'theme_aerie');
+$description = get_string('customcssdesc', 'theme_scratch');
 $setting = new admin_setting_configtextarea($name, $title, $description, '');
 $settings->add($setting);
 
