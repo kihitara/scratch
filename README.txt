@@ -18,6 +18,9 @@ functions:
 - Custom CSS box
 
 ****************** Change log *******************
+24/10/12
+- Fixed main content token.
+
 28/08/12
 - Fixed [[customcssdesc]] display error.
 
